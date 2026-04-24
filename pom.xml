@@ -10,7 +10,7 @@
     <modules>
         <module>spring-ai-demo</module>
         <module>spring-alibaba-demo</module>
-<!--        <module>spring-chat-bot</module>-->
+        <module>spring-chat-robot</module>
     </modules>
 
     <packaging>pom</packaging>

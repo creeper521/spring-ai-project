@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: spring-chat-robot
+  ai:
+    openai:
+      #QwenAi
+      api-key: sk-***********
+      base-url: https://dashscope.aliyuncs.com/compatible-mode
+      chat:
+        options:
+          model: qwen-vl-max-latest
+          multi-model: true
+          temperature: 0.7
+
+logging:
+  pattern:
+    console: '%d{HH:mm:ss.SSS} %c %M %L [%thread] %m%n'
+    file: '%d{HH:mm:ss.SSS} %c %M %L [%thread] %m%n'
+  level:
+    org.springframework.ai.chat.client.advisor: debug
