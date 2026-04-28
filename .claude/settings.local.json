@@ -3,7 +3,8 @@
     "allow": [
       "Bash(pandoc *)",
       "Bash(python *)",
-      "Bash(iconv -f utf-8 -t utf-8)"
+      "Bash(iconv -f utf-8 -t utf-8)",
+      "Bash(npx cc-sdd@latest --claude-skills --lang zh)"
     ]
   }
 }
