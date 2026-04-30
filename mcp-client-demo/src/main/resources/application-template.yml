@@ -1,0 +1,18 @@
+spring:
+  ai:
+    dashscope:
+      api-key: sk-******************
+    mcp:
+      client:
+        enabled: true
+        request-timeout: 60s
+        #        stdio:
+        #          servers-configuration: classpath:/mcp/mcp-servers-config.json
+        sse:
+          connections:
+            user-info:
+              url: http://127.0.0.1:8088/sse
+logging:
+  pattern:
+    console: "%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n"
+    file: "%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n"

@@ -32,9 +32,5 @@ build/
 ### VS Code ###
 .vscode/
 
-.claude
-.kiro
-.codex-tmp-chat
-.codex-tmp-mcp
-.codex-tmp-model
-.codex-tmp-tool
+### Application Config ###
+**/application.yml

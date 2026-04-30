@@ -11,6 +11,10 @@
         <module>spring-ai-demo</module>
         <module>spring-alibaba-demo</module>
         <module>spring-chat-robot</module>
+        <module>spring-toolCalling-demo</module>
+        <module>mcp-client-demo</module>
+        <module>mcp-stdio-server-demo</module>
+        <module>mcp-sse-server-demo</module>
     </modules>
 
     <packaging>pom</packaging>
